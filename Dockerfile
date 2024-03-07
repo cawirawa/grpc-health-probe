@@ -1,4 +1,4 @@
-FROM golang:1.21.5 AS build
+FROM golang:1.22.1 AS build
 ENV PROJECT grpc_health_probe
 WORKDIR /src/$PROJECT
 COPY go.mod go.sum ./
